@@ -41,6 +41,9 @@
   .navBtn {
     display: none;
   }
+    .link:hover {
+    background: rgb(0, 0, 0);
+  }
   .menu {
     display: block;
     cursor: pointer;
@@ -75,3 +78,4 @@
     font-size: 25px;
   }
 }
+
