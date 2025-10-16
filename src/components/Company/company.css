@@ -1,0 +1,16 @@
+.slider img {
+  width: 150px;
+}
+.slider {
+  text-align: center;
+}
+.slider h2 {
+  margin-bottom: 50px;
+  font-size: 42px;
+}
+@media screen and (max-width: 550px) {
+  .slider h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}

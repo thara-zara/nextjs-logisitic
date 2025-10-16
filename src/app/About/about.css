@@ -1,0 +1,121 @@
+.about {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.aboutinner {
+  margin-top: 100px;
+}
+
+.singleservice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.sleft {
+  width: 50%;
+}
+.sleft h3 {
+  font-size: 35px;
+  line-height: 46px;
+}
+.sleft p {
+  font-size: 18px;
+  color: rgb(82, 82, 82);
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.sright {
+  width: 50%;
+}
+.sright img {
+  width: 100%;
+}
+.mission {
+  background: #191919;
+  margin-top: 100px;
+}
+.missioninner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px;
+  color: white;
+  padding: 50px 0;
+}
+.missioninner h2 {
+  font-size: 35px;
+  color: #fbfbfb;
+}
+.missioninner p {
+  max-width: 50%;
+  font-size: 18px;
+  color: #fbfbfb;
+}
+.about-marq {
+  margin-top: 100px;
+}
+.aboutlist {
+  margin-top: 20px;
+}
+.slist {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.second {
+  margin-top: 25px;
+}
+.icn {
+  color: #ffd736;
+}
+.mis {
+  padding: 0px 16px;
+}
+@media screen and (max-width: 768px) {
+  .mis {
+    padding: 50px 16px;
+  }
+  .missioninner p {
+    max-width: 100%;
+  }
+  .aboutinner {
+    margin-top: 50px;
+  }
+  .missioninner {
+    padding: 25px 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .main-about h3 {
+    font-size: 28px;
+  }
+  .missioninner h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .singleservice {
+    flex-direction: column;
+  }
+  .sleft,
+  .sright {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-about h3 {
+    font-size: 20px;
+  }
+  .missioninner h2 {
+    font-size: 20px;
+  }
+  .missioninner p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .aboutinner {
+    margin-top: 10px;
+  }
+}

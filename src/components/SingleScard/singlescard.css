@@ -1,0 +1,16 @@
+.ssingle {
+  padding: 15px;
+  background: rgb(243, 243, 243);
+  border-radius: 10px;
+}
+.ssingle h1{
+    color: #FFD736;margin-bottom: 15px;}
+
+.ssingle h5 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.ssingle p {
+  color: rgb(114, 114, 114);
+}

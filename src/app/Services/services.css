@@ -1,0 +1,96 @@
+.servicepage {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.sinner {
+  margin-top: 100px;
+}
+.singleservice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.sleft {
+  width: 50%;
+}
+.sleft h3 {
+  font-size: 35px;
+  line-height: 46px;
+}
+.sleft p {
+  font-size: 18px;
+  color: rgb(82, 82, 82);
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.sright {
+  width: 50%;
+}
+.sright img {
+  width: 100%;
+}
+.single-scard {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .mis {
+    padding: 50px 16px;
+  }
+  .missioninner p {
+    max-width: 100%;
+  }
+  .sinner {
+    margin-top: 50px;
+  }
+  .missioninner {
+    padding: 25px 0;
+  }
+  .single-scard {
+    margin-top: 80px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 640px) {
+  .servicepage h3 {
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .servicepage h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .singleservice {
+    flex-direction: column;
+  }
+  .sleft,
+  .sright {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .servicepage h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .servicepage h2 {
+    font-size: 20px;
+  }
+  .servicepage p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .sinner {
+    margin-top: 10px;
+  }
+  .single-scard {
+    margin-top: 80px;
+    grid-template-columns: 1fr;
+  }
+}

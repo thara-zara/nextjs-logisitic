@@ -1,0 +1,15 @@
+.start {
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #232323;
+    color: white;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 750px){
+    .start{
+      font-size: 16px;
+      padding: 7px 12px;
+    }
+  }

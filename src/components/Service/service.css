@@ -1,0 +1,42 @@
+.singleservice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.sleft {
+  width: 50%;
+  border-right: 1px solid rgb(226, 226, 226);
+}
+.sleft h3 {
+  font-size: 35px;
+  line-height: 46px;
+}
+.sleft p {
+  font-size: 18px;
+  color: rgb(82, 82, 82);
+  margin-bottom: 25px;
+}
+.sright {
+  width: 50%;
+}
+.sright img {
+  width: 100%;
+}
+@media screen and (max-width: 640px){
+  .singleservice{
+    flex-direction: column;
+  }
+  .sright,.sleft{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .singleservice{
+    margin-bottom: 20px;
+  }
+  .sleft h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}

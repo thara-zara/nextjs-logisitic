@@ -1,0 +1,52 @@
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ gap: 20px;
+}
+.singlenumber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.singlenumber h2 {
+  font-size: 62px;
+  line-height: 84px;
+  color: #232323;
+}
+.singlenumber span {
+  font-size: 20px;
+  font-weight: 700;
+}
+@media screen and (max-width: 850px) {
+  .singlenumber h2 {
+    font-size:52px;
+    line-height:72px;
+  }
+  .singlenumber span {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:640px) {
+  .singlenumber h2 {
+    font-size:32px;
+    line-height:52px;
+  }
+  .singlenumber span {
+    font-size: 18px;
+  }
+}
+  @media screen and (max-width: 500px){
+    .number {
+      justify-content: space-around;
+     
+    }
+    
+}
+@media screen and (max-width: 420px){
+      .number {
+        flex-direction: column;
+      }
+  }
