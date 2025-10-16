@@ -3,7 +3,8 @@
 import { Links } from "@/data/data";
 import "./navbar.css";
 // import logo from "./../../../public/images/logo.svg";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Button from "../Button/Button";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
@@ -11,9 +12,14 @@ import { IoIosCloseCircle } from "react-icons/io";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+    const pathname = usePathname(); 
 
   const openMenu = () => setOpen(true);
   const closeMenu = () => setOpen(false);
+  
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
 
   return (
     <div className="navbar">
@@ -64,3 +70,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
